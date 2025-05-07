@@ -1,6 +1,31 @@
+# Python
 __pycache__/
-*.pyc
-.DS_Store
-node_modules/
-firmware/build/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
 *.log
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# C/C++
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+firmware/build/
+
+# macOS
+.DS_Store
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# System
+Thumbs.db
